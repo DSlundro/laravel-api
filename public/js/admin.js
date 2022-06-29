@@ -49658,7 +49658,7 @@ window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js")
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\qwerty\Desktop\laravel-many-to-many\resources\js\admin.js */"./resources/js/admin.js");
+module.exports = __webpack_require__(/*! C:\Users\qwerty\Desktop\laravel-api\resources\js\admin.js */"./resources/js/admin.js");
 
 
 /***/ })

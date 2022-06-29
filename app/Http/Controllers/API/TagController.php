@@ -6,11 +6,12 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Tag;
 
-class TagsController extends Controller
+class TagController extends Controller
 {
     public function index()
     {
-        return  Tag::all();
+        $tags = Tag::paginate();
+        return $tags;
 
     }
 }
